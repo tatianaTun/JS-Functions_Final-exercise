@@ -1,0 +1,85 @@
+.atm-nav{
+    display:flex;
+    flex-direction: column;
+    width:50%;
+    align-items: center;
+    background-color: rgb(125, 149, 252);
+    padding:20px;
+    border: 20px solid rgb(210, 210, 210);
+    border-radius: 40px;
+    margin:20px auto;
+  }
+  .exr1, 
+  .exr2, 
+  .exr3{
+    display:none;
+    flex-direction: column;
+    width:50%;
+    align-items: center;
+    background-color: rgb(209, 173, 243);
+    padding:20px;
+    border: 20px solid rgb(210, 210, 210);
+    border-radius: 40px;
+    margin:20px auto;
+  }
+  
+  /* .exr3{
+    display:flex;
+    flex-direction: column;
+    width:50%;
+    align-items: center;
+    background-color: rgb(209, 173, 243);
+    padding:20px;
+    border: 20px solid rgb(210, 210, 210);
+    border-radius: 40px;
+    margin:20px auto;
+  } */
+  button{
+    border: 7px solid rgb(249, 152, 152);
+    border-radius: 40px;
+    padding:5px;
+    width:150px;
+  }
+  button:hover{
+    transition:1s;
+    transform:scale(1.1);
+  }
+  p{
+    width:80%;
+  }
+
+  /* EXERCISE 5 */
+
+.exr5-form {
+    display:flex;
+    flex-direction: column;
+    width:50%;
+    align-items: center;
+    background-color: rgb(209, 173, 243);
+    padding:20px;
+    border: 20px solid rgb(210, 210, 210);
+    border-radius: 40px;
+    margin:20px auto;
+}
+form{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  text-justify:center;
+}
+
+p{
+  text-align:center;
+}
+.submit-btn2 {
+  display:none;
+}
+a{
+  text-decoration: none;
+}
+
+
+
+
+
+
